@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./styles.css"></link>
+        <title>My ScatterPlot</title>
+    </head>
+    <body>
+        <h2 class="title">Relación entre el indice de retiro y el ticket promedio</h2>
+        <div class="description">Afiliados de la asociación de egresados agosto 2020</div>
+        <div id="wrapper" class="wrapper">
+
+            <div id="tooltip" class="tooltip">
+                <div class="tooltip-date">
+                    <span id="date"></span>
+                </div>
+                <div class="tooltip-humidity">
+                    Indice de retiro: <span id="humidity"></span>
+                </div>
+                <div class="tooltip-dew-point">
+                    Ticket Promedio: <span id="dew-point"></span>
+                </div>
+                <div class="tooltip-id">
+                    Id: <span id="id"></span>
+                </div>
+        <!--         <div class="tooltip-type">
+                    Tipo: <span id="type"></span>
+                </div> -->
+            </div>
+
+        </div>
+
+        <script src="./d3-delaunay.min.js"></script>
+        <script src="./d3.v5.js"></script>
+        <script src="./scatter.js"></script>
+        <script src="https://d3js.org/d3-color.v2.min.js"></script>
+        <script src="https://d3js.org/d3-interpolate.v2.min.js"></script>
+        <script src="https://d3js.org/d3-scale-chromatic.v2.min.js"></script>
+    </body>
+
+</html>
